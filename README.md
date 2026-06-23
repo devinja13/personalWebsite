@@ -1,4 +1,4 @@
-# Alex Morgan Portfolio
+# Devin Abraham Portfolio
 
 A Vite + React + TypeScript + Tailwind portfolio for an operations research and data science student.
 
@@ -11,8 +11,8 @@ npm run dev
 
 ## Personalize it
 
-- Update the name, biography, links, and academic details in `src/App.tsx`.
-- Add or edit projects in `src/data/projects.ts`.
+- Update the contact links and biography in `src/App.tsx`.
+- Add project links and edit project content in `src/data/projects.ts`.
 - Add your actual PDF as `public/resume.pdf`; the Resume page is already linked to it.
 
 ## Deploy to GitHub Pages
