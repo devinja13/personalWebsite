@@ -14,8 +14,8 @@
   .button-quiet { @apply inline-flex items-center justify-center gap-2 border border-ink/25 px-4 py-3 font-mono text-[10px] font-medium uppercase tracking-[.12em] transition-colors hover:border-ink hover:bg-ink hover:text-paper; }
   .tag { @apply border border-ink/20 px-2 py-1 font-mono text-[9px] uppercase tracking-wide text-ink/70; }
   .scroll-section { @apply py-20 md:py-28; }
-  .case-study { @apply grid overflow-hidden border border-ink/20 bg-paper md:grid-cols-[.8fr_1.2fr]; }
-  .case-study-art { @apply relative min-h-64 overflow-hidden border-b border-ink/15 p-6 md:min-h-full md:border-b-0 md:border-r; background-image: linear-gradient(rgba(20,33,61,.10) 1px, transparent 1px), linear-gradient(90deg, rgba(20,33,61,.10) 1px, transparent 1px); background-size: 2.8rem 2.8rem; }
+  .case-study { @apply grid overflow-hidden border border-ink/20 bg-paper; }
+  .case-study-art { @apply relative min-h-[22rem] overflow-hidden border-b border-ink/15 p-6 md:min-h-[30rem]; background-image: linear-gradient(rgba(20,33,61,.10) 1px, transparent 1px), linear-gradient(90deg, rgba(20,33,61,.10) 1px, transparent 1px); background-size: 2.8rem 2.8rem; }
   .case-study-content { @apply p-7 md:p-10; }
   .case-study-grid { @apply mt-9 grid gap-7 border-y border-ink/15 py-6 lg:grid-cols-3; }
   .case-number { @apply relative z-10 font-mono text-[11px] tracking-[.15em] text-ink/60; }
